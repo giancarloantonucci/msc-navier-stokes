@@ -1,11 +1,1 @@
-# Galerkin least-squares finite element method for the incompressible Navier-Stokes equations with FEniCS
-
-Submitted as part of the MSc in Mathematical Modelling and Scientific Computing at the University of Oxford.
-
---------------------------
-
-This repository accompanies the report "Galerkin least-squares finite element method for the incompressible Navier-Stokes equations with FEniCS". Using the FEniCS software, I solved the incompressible Navier-Stokes equations, using a Galerkin Least Squares stabilisation method, for the process of turning natural water into drinking water.
-
-The file navierstokes.py needs the FEniCS project to be installed.
-
-The .mov movies show the laminar and turbulent flows for the described application.
+This repository complements an acadamic report title "Galerkin least-squares finite element method for the incompressible Navier-Stokes equations with FEniCS" that I submitted as part of the MSc in Mathematical Modelling and Scientific Computing at the University of Oxford. I used the FEniCS software to simulate the process of turning natural water into drinking water, solving the incompressible Navier-Stokes equations with a Galerkin Least Squares stabilization method. Install FEniCS and run `navierstokes.py` to replicate this simulation. The `.mov` files show the resulting laminar and turbulent flows.
